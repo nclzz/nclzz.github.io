@@ -1,0 +1,106 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+$red: #EE0000;
+$orange: #FF6600;
+
+body {
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    color: #474040;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 90px;
+    font-family: gothic-open-shaded;
+    -moz-font-feature-settings: 'liga=1'; /* moz prefix - edit font-feature-settings property */
+    -ms-font-feature-settings: 'liga' 1; /* ms prefix - edit font-feature-settings property */
+    -webkit-font-feature-settings: 'liga' 1; /* webkit prefix - edit font-feature-settings property */
+    -o-font-feature-settings: 'liga' 1; /* o prefix - edit font-feature-settings property */
+    font-feature-settings: 'liga' 1;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    text-indent: 0;
+    color: #474040;
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 20px;
+    font-family: proxima-nova;
+    color: #474040;
+    margin-top: 0;
+    margin-bottom: 18px;
+    -moz-font-feature-settings: 'liga=1'; /* moz prefix - edit font-feature-settings property */
+    -ms-font-feature-settings: 'liga' 1; /* ms prefix - edit font-feature-settings property */
+    -webkit-font-feature-settings: 'liga' 1; /* webkit prefix - edit font-feature-settings property */
+    -o-font-feature-settings: 'liga' 1; /* o prefix - edit font-feature-settings property */
+    font-feature-settings: 'liga' 1;
+}
+
+h3 {
+    font-weight: 800;
+    font-style: normal;
+    font-family: proxima-nova;
+    font-size: 30px;
+    margin-bottom: 9px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+p a:link {
+    text-decoration: none;
+    color: #ADAA9A;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: #727066;
+}
+
+p {
+    margin-bottom: 12px;
+    color: #474040;
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.highlight {
+    margin-bottom: 25px;
+    color: #474040;
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.skills {
+    margin-bottom: 15px;
+    color: #9B9292;
+    font-family: ff-tisa-web-pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    -moz-font-feature-settings: 'liga=1'; /* moz prefix - edit font-feature-settings property */
+    -ms-font-feature-settings: 'liga' 1; /* ms prefix - edit font-feature-settings property */
+    -webkit-font-feature-settings: 'liga' 1; /* webkit prefix - edit font-feature-settings property */
+    -o-font-feature-settings: 'liga' 1; /* o prefix - edit font-feature-settings property */
+    font-feature-settings: 'liga' 1;
+}
+.container {margin-top: 50px;}
+
+.red {color: $red;}
+.orange {color: $orange;}
