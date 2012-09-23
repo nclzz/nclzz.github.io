@@ -104,3 +104,7 @@ p {
 
 .red {color: $red;}
 .orange {color: $orange;}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	h1 {font-size: 60px; line-height: 60px;}
+	}

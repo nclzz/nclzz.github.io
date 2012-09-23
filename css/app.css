@@ -6515,3 +6515,9 @@ p {
 /* line 106, ../sass/app.scss */
 .orange {
   color: #ff6600; }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 109, ../sass/app.scss */
+  h1 {
+    font-size: 60px;
+    line-height: 60px; } }
