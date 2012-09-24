@@ -6395,7 +6395,15 @@ a.label:hover, a.badge:hover {
   .nav-collapse.collapse {
     height: auto!important;
     overflow: visible!important; } }
-/* line 7, ../sass/app.scss */
+/* line 8, ../sass/app.scss */
+a {
+  color: #9B9292; }
+
+/* line 9, ../sass/app.scss */
+a:hover {
+  color: #9B9292; }
+
+/* line 11, ../sass/app.scss */
 body {
   font-family: proxima-nova;
   font-style: normal;
@@ -6403,12 +6411,12 @@ body {
   color: #474040;
   background-color: #fcfcfc; }
 
-/* line 15, ../sass/app.scss */
+/* line 19, ../sass/app.scss */
 h1 {
-  font-size: 80px;
+  font-size: 52px;
   font-weight: 400;
   font-style: normal;
-  line-height: 90px;
+  line-height: 60px;
   font-family: gothic-open-shaded;
   -moz-font-feature-settings: 'liga=1';
   /* moz prefix - edit font-feature-settings property */
@@ -6425,7 +6433,7 @@ h1 {
   color: #474040;
   margin-top: 0; }
 
-/* line 33, ../sass/app.scss */
+/* line 37, ../sass/app.scss */
 h2 {
   font-weight: 400;
   font-style: normal;
@@ -6445,7 +6453,7 @@ h2 {
   /* o prefix - edit font-feature-settings property */
   font-feature-settings: 'liga' 1; }
 
-/* line 49, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 h3 {
   font-weight: 800;
   font-style: normal;
@@ -6455,17 +6463,17 @@ h3 {
   line-height: 26px;
   margin-top: 24px; }
 
-/* line 59, ../sass/app.scss */
+/* line 63, ../sass/app.scss */
 p a:link {
   text-decoration: none;
   color: #ADAA9A; }
 
-/* line 64, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 p a:hover {
   text-decoration: none;
   color: #727066; }
 
-/* line 69, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 p {
   margin-bottom: 12px;
   color: #474040;
@@ -6475,7 +6483,7 @@ p {
   font-size: 14px;
   line-height: 21px; }
 
-/* line 79, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .highlight {
   margin-bottom: 25px;
   color: #474040;
@@ -6485,7 +6493,7 @@ p {
   font-size: 18px;
   line-height: 27px; }
 
-/* line 89, ../sass/app.scss */
+/* line 93, ../sass/app.scss */
 .skills {
   margin-bottom: 15px;
   color: #9B9292;
@@ -6504,20 +6512,29 @@ p {
   /* o prefix - edit font-feature-settings property */
   font-feature-settings: 'liga' 1; }
 
-/* line 103, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .container {
   margin-top: 50px; }
 
-/* line 105, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
+.project {
+  padding: 5px 15px;
+  background-color: #f3f3f3;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  margin-bottom: 9px; }
+
+/* line 111, ../sass/app.scss */
 .red {
   color: #ee0000; }
 
-/* line 106, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 .orange {
   color: #ff6600; }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 109, ../sass/app.scss */
+  /* line 115, ../sass/app.scss */
   h1 {
     font-size: 60px;
     line-height: 60px; } }

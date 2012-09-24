@@ -1,8 +1,12 @@
+@import "compass";
 @import "bootstrap";
 @import "bootstrap-responsive";
 
 $red: #EE0000;
 $orange: #FF6600;
+
+a {color: #9B9292;}
+a:hover {color: #9B9292;}
 
 body {
     font-family: proxima-nova;
@@ -13,10 +17,10 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 52px;
     font-weight: 400;
     font-style: normal;
-    line-height: 90px;
+    line-height: 60px;
     font-family: gothic-open-shaded;
     -moz-font-feature-settings: 'liga=1'; /* moz prefix - edit font-feature-settings property */
     -ms-font-feature-settings: 'liga' 1; /* ms prefix - edit font-feature-settings property */
@@ -101,6 +105,8 @@ p {
     font-feature-settings: 'liga' 1;
 }
 .container {margin-top: 50px;}
+
+.project {padding: 5px 15px; background-color: #f3f3f3; @include border-radius(4px, 4px); margin-bottom: 9px; }
 
 .red {color: $red;}
 .orange {color: $orange;}
