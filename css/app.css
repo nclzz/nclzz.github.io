@@ -6518,7 +6518,7 @@ p {
 
 /* line 109, ../sass/app.scss */
 .project {
-  padding: 5px 15px;
+  padding: 1px 15px;
   background-color: #f3f3f3;
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
