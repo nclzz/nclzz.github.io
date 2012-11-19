@@ -217,7 +217,7 @@ a:hover {
 [class*="span"] {
   float: left;
   min-height: 1px;
-  margin-left: 20px; }
+  margin-left: 30px; }
 
 /* line 226, ../sass/_bootstrap.scss */
 .container,
@@ -7050,10 +7050,10 @@ body {
 
 /* line 19, ../sass/app.scss */
 .big-title {
-  font-size: 52px;
+  font-size: 44px;
   font-weight: 400;
   font-style: normal;
-  line-height: 60px;
+  line-height: 46px;
   font-family: gothic-open-shaded;
   -moz-font-feature-settings: 'liga=1';
   /* moz prefix - edit font-feature-settings property */
@@ -7296,8 +7296,13 @@ p {
 .orange {
   color: #ff6600; }
 
+@media (max-width: 979px) and (min-width: 768px) {
+  /* line 239, ../sass/app.scss */
+  .big-title {
+    font-size: 32px;
+    line-height: 36px; } }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 240, ../sass/app.scss */
+  /* line 242, ../sass/app.scss */
   h1 {
     font-size: 60px;
     line-height: 60px; } }
