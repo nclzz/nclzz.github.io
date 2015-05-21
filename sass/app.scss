@@ -4,6 +4,7 @@
 
 $red: #EE0000;
 $orange: #FF6600;
+$lightBlue: #00afeb;
 
 a {color: #9B9292;}
 a:hover {color: #9B9292; text-decoration: none;}
@@ -35,7 +36,7 @@ body {
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 21px;
     line-height: 20px;
@@ -57,7 +58,11 @@ h3 {
     font-size: 30px;
     margin-bottom: 9px;
     line-height: 26px;
-    margin-top: 24px;
+    margin-top: 12px;
+}
+
+h5 {
+  font-weight: 300;
 }
 
 p a:link {
@@ -108,7 +113,12 @@ p {
 
 #projects {
   h2 {margin-top: 0; margin-bottom: 15px;}
-  .project {padding: 1px 15px; background-color: #f3f3f3; @include border-radius(4px, 4px); margin-bottom: 9px; }
+  .project {
+    padding: 10px 15px 10px; 
+    background-color: #f3f3f3; 
+    @include border-radius(4px, 4px); 
+    margin-bottom: 18px; 
+  }
 }
 
 /* ========================================================
@@ -230,11 +240,10 @@ $hoverColor: deepSkyBlue;
   }
 }
 
-
-
-
 .red {color: $red;}
 .orange {color: $orange;}
+.light-blue {color: $lightBlue};
+
 @media (max-width: 979px) and (min-width: 768px) {
   .big-title {font-size: 32px; line-height: 36px;}
 }
